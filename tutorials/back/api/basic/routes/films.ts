@@ -26,7 +26,7 @@ const router = Router();
 
 
 router.get("/", (_req, res) => {
-  return res.json();
+  return res.json(films);
 });
 
 export default router;
